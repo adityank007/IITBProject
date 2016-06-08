@@ -1,0 +1,259 @@
+html
+  head
+    title  ProfilePage
+    link(href="main.css" rel="stylesheet")
+    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css")
+
+  body
+    nav
+      ul.right.hide-on-med-and-down
+        li
+          a(href="#!") First Sidebar link
+        li
+          a(href="#!") First Sidebar link
+        li
+          a(href="#!") First Sidebar link
+      ul.side-nav#slide-out.fixed
+        li
+          a(href="#!") First Sidebar link
+        li
+          a(href="#!") First Sidebar link
+        li
+          a(href="#!") First Sidebar link
+
+      a(href="#" data-activates="slide-out").button-collapse
+        i.mdi-navigation-menu
+
+    .row
+      .col.s2
+        p
+
+      .col.s10
+
+          .row
+            .col.s12.change-it
+              ul.tabs
+                li.tab.col.s3
+                  a(href="#inbox").active Inbox
+                li.tab.col.s3
+                  a(href="#unread") Unread
+                li.tab.col.s3
+                  a(href="#outbox") Outbox
+                li.tab.col.s3
+                  a(href="#sent") Sent
+
+            #inbox.col.s12
+              .inbox-section
+                .row
+                  .col.s12.m4.change-it
+                    .card
+                      .card-image
+                        img(src="1.jpg")
+                        span.card-title Card Title
+                      .card-content
+                        p I am testing you
+                      .card-action
+                        a(href="#") This is a link
+
+                  .col.s12.m4.change-it
+                    .card
+                      .card-image
+                        img(src="1.jpg")
+                        span.card-title Card Title
+                      .card-content
+                        p I am testing you
+                      .card-action
+                        a(href="#") This is a link
+
+                  .col.s12.m4.change-it
+                    .card
+                      .card-image
+                        img(src="1.jpg")
+                        span.card-title Card Title
+                      .card-content
+                        p I am testing you
+                      .card-action
+                        a(href="#") This is a link
+
+                table.responsive-table.centered
+                  thead
+                    tr
+                      th(data-field = "id") Name
+                      th(data-field = "name") Item
+                      th(data-field = "price") Price
+                  tbody
+                    tr
+                      td Alvin
+                      td Eclair
+                      td $0.87
+                    tr
+                      td Alvin
+                      td Eclair
+                      td $0.87
+                    tr
+                      td Alvin
+                      td Eclair
+                      td $0.87
+
+          #unread.col.s12
+            .unread-section
+              .row
+                .col.s12.m4
+                  .card
+                    .card-image
+                      img(src="1.jpg")
+                      span.card-title Card Title
+                    .card-content
+                      p I am testing you
+                    .card-action
+                      a(href="#") This is a link
+
+                .col.s12.m4
+                  .card
+                    .card-image
+                      img(src="1.jpg")
+                      span.card-title Card Title
+                    .card-content
+                      p I am testing you
+                    .card-action
+                      a(href="#") This is a link
+
+                .col.s12.m4
+                  .card
+                    .card-image
+                      img(src="1.jpg")
+                      span.card-title Card Title
+                    .card-content
+                      p I am testing you
+                    .card-action
+                      a(href="#") This is a link
+
+              table.responsive-table.centered
+                thead
+                  tr
+                    th(data-field = "id") Name
+                    th(data-field = "name") Item
+                    th(data-field = "price") Price
+                tbody
+                  tr
+                    td Alvin
+                    td Eclair
+                    td $0.87
+                  tr
+                    td Alvin
+                    td Eclair
+                    td $0.87
+                  tr
+                    td Alvin
+                    td Eclair
+                    td $0.87
+
+          #outbox.col.s12
+            .outbox-section
+              .row
+                .col.s12.m4
+                  .card
+                    .card-image
+                      img(src="1.jpg")
+                      span.card-title Card Title
+                    .card-content
+                      p I am testing you
+                    .card-action
+                      a(href="#") This is a link
+
+                .col.s12.m4
+                  .card
+                    .card-image
+                      img(src="1.jpg")
+                      span.card-title Card Title
+                    .card-content
+                      p I am testing you
+                    .card-action
+                      a(href="#") This is a link
+
+                .col.s12.m4
+                  .card
+                    .card-image
+                      img(src="1.jpg")
+                      span.card-title Card Title
+                    .card-content
+                      p I am testing you
+                    .card-action
+                      a(href="#") This is a link
+
+              table.responsive-table.centered
+                thead
+                  tr
+                    th(data-field = "id") Name
+                    th(data-field = "name") Item
+                    th(data-field = "price") Price
+                tbody
+                  tr
+                    td Alvin
+                    td Eclair
+                    td $0.87
+                  tr
+                    td Alvin
+                    td Eclair
+                    td $0.87
+                  tr
+                    td Alvin
+                    td Eclair
+                    td $0.87
+          #sent.col.s12
+            .sent-section
+              .row
+                .col.s12.m4
+                  .card
+                    .card-image
+                      img(src="1.jpg")
+                      span.card-title Card Title
+                    .card-content
+                      p I am testing you
+                    .card-action
+                      a(href="#") This is a link
+
+                .col.s12.m4
+                  .card
+                    .card-image
+                      img(src="1.jpg")
+                      span.card-title Card Title
+                    .card-content
+                      p I am testing you
+                    .card-action
+                      a(href="#") This is a link
+
+                .col.s12.m4
+                  .card
+                    .card-image
+                      img(src="1.jpg")
+                      span.card-title Card Title
+                    .card-content
+                      p I am testing you
+                    .card-action
+                      a(href="#") This is a link
+
+              table.responsive-table.centered
+                thead
+                  tr
+                    th(data-field = "id") Name
+                    th(data-field = "name") Item
+                    th(data-field = "price") Price
+                tbody
+                  tr
+                    td Alvin
+                    td Eclair
+                    td $0.87
+                  tr
+                    td Alvin
+                    td Eclair
+                    td $0.87
+                  tr
+                    td Alvin
+                    td Eclair
+                    td $0.87
+
+
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js")
+    script(src="function.js")

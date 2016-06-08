@@ -1,0 +1,8 @@
+.change-it{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.side-nav.fixed{
+  z-index: -10;
+}
